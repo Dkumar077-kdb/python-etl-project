@@ -1,16 +1,18 @@
-# Python ETL Project
+# Python ETL Pipeline Project
 
-## Overview
-This project demonstrates a simple ETL (Extract, Transform, Load) pipeline using Python.
+## 📌 Overview
+This project demonstrates a simple ETL (Extract, Transform, Load) pipeline using Python and Pandas.
 
-## Steps
-- Extract data from a public dataset
+## ⚙️ Architecture
+- Extract data from public dataset
 - Transform data using Pandas
-- Load processed data into a CSV file
+- Load processed data into CSV
 
-## Tools Used
+## 🛠️ Tools & Technologies
 - Python
 - Pandas
 
-## Output
-Processed dataset saved as `output.csv`
+## ▶️ How to Run
+```bash
+pip install pandas
+python etl.py
