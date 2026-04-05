@@ -11,3 +11,6 @@ data_clean["sepal_area"] = data_clean["sepal_length"] * data_clean["sepal_width"
 data_clean.to_csv("output.csv", index=False)
 
 print("ETL process completed. Output saved as output.csv")
+
+data_clean = data.dropna().copy()
+data_clean["sepal_area"] = data_clean["sepal_length"] * data_clean["sepal_width"]
